@@ -1,0 +1,122 @@
+div#container {
+    position: relative;
+    width: 1450px;
+    height: 700px;
+    margin: 0px;
+    border: 1px solid black;
+}   
+    #shuttle {
+        
+        position: relative;
+       
+    }
+.shuttlecore {
+   z-index: 3;
+    position: absolute;
+    width: 40px;
+    box-sizing: content-box;
+    top: 85px;
+    left: -40px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid blue;
+    border-left: 100px solid transparent;
+    transform: rotate(90deg);
+ 
+   }
+   
+   .shuttlehull {
+    z-index: 4;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 1px;
+    top: 59px;
+    left: 78px;
+    border-right: 20px solid yellow;
+    border-bottom: 70px solid black;
+    border-left: 20px solid yellow;
+    border-top: 50px solid transparent;
+    transform: rotate(90deg);
+   }
+
+
+
+   .shuttlecockpit {
+   z-index: 2;
+    width: 50px;
+    height: 25px;
+    position: absolute  ;
+    top: 107px;
+    left: 110px;
+    background-color: blue;
+    border-radius: 100px / 50px;
+  }
+  
+   .shuttlethruster1 {
+    z-index: 2;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 67px;
+    left: 19px;
+    border-right: 70px solid black;
+    border-bottom: 10px solid black;
+    border-left: 80px solid black;
+    border-top: 10px solid black;
+   }
+   .shuttlethruster2 {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 151px;
+    left: 19px;
+    border-right: 70px solid black;
+    border-bottom: 10px solid black;
+    border-left: 80px solid black;
+    border-top: 10px solid black;
+   }
+   .shuttlegun {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 117px;
+    left: 110px;
+    border-right: 5px solid black;
+    border-bottom: 3px solid black;
+    border-left: 56px solid black;
+    border-top: 3px solid black;
+   }
+
+
+
+.shuttleProjectile{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 500px;
+    left: 200px;
+    border-right: 5px solid orange;
+    border-bottom: 3px solid red;
+    border-left: 56px solid orangered;
+    border-top: 3px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
